@@ -1,11 +1,9 @@
-$bg-dark: #242424;
-$btn-dark: #1a1a1a;
 $font-family: Inter,
-system-ui,
-Avenir,
-Helvetica,
-Arial,
-sans-serif;
+  system-ui,
+  Avenir,
+  Helvetica,
+  Arial,
+  sans-serif;
 
 :root {
   font-family: $font-family;
@@ -21,14 +19,17 @@ sans-serif;
 
 a {
   font-weight: 500;
+  font-size: large;
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
-body, #root {
+body,
+#root {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -51,9 +52,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -63,13 +66,29 @@ button:focus-visible {
   text-align: center;
 }
 
-.main-content {
-  flex: 1;
+.content {
+  position: relative;
+  min-height: 98vh;
 }
 
-.dark {
-  background-color: $bg-dark;
-  color: #eee;
+main {
+  padding-bottom: 2rem;
+}
+
+// .main-content {
+//   flex: 1;
+// }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-links {
+display: flex;
+font-size: x-large;
+justify-content: space-around;
 }
 
 .quote-wrap {
@@ -88,52 +107,41 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   nav {
-    span {
-      margin-right: 10px;
+
+    NavLink {
+      text-align: left;
+      padding: 10px
     }
-    button {
-      &.dark-btn {
-        background-color: $btn-dark;
-        color: #eee;
-      }
-      &.theme-btn {
-        margin-right: 20px;
-        padding: 5px 10px;
-        font-size: .9rem;
-      }
+  }
+
+  a {
+    &:not(:last-child) {
+      margin-right: 20px;
     }
 
-    a {
-      &:not(:last-child) {
-        margin-right: 5px;
-      }
-      &:hover, &.active {
-        text-decoration: underline;
-      }
+    &:hover,
+    &.active {
+      text-decoration: underline;
     }
   }
 }
+
 
 form {
   display: flex;
   flex-direction: column;
   width: 400px;
   margin: 0 auto;
-  > * {
+
+  >* {
     padding: 9px 15px;
     margin-bottom: 5px;
     font-family: $font-family;
   }
-  input, textarea {
-    border-radius: 3px;
-    outline: none;
-  }
-  button {
-    background-color: #1ccd71;
-    color: #fff;
-    border-radius: 3px;
-  }
+
+
 }
 
 
@@ -143,10 +151,9 @@ form {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }
