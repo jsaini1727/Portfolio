@@ -11,8 +11,8 @@ function Home() {
         <h1 className="text-center">Home</h1>
         <div className="text-center">
         <p>HELLO and thank you for allowing me to showcase some of my skills.</p>
-        <p>I believe <strong>J</strong>avascript <strong>A</strong>pplications Spark Vivid Innovations Nurturing Developers Expertise & Resources.</p>
-        <p>My name is {name}</p>
+        <p>I believe <strong>J</strong>avascript <strong>A</strong>pplications <strong>S</strong>park <strong>V</strong>ivid <strong>I</strong>nnovations <strong>N</strong>urturing <strong>D</strong>evelopers <strong>E</strong>xpertise & <strong>R</strong>esources.</p>
+        <p>My name is {name} and an aspiring Full Stack Developer</p>
         </div>
         </>
     )

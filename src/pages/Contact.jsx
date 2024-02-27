@@ -1,5 +1,5 @@
 // Create a component function called Contact that returns a fragment block of html with a single h1
-// The text of the h1 says 'Home'
+// The text of the h1 says 'Contact Me'
 function Contact() {
 
     return (
