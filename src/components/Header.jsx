@@ -4,13 +4,14 @@ function Header() {
 
   return (
     <header>
-      <h1>My Portfolio</h1>
+      <h1>JSS Portfolio</h1>
 
     <nav>
     
       <NavLink to="/">Home</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/contact">Contact</NavLink>
+      <NavLink to="/portfolio">Projects</NavLink>
 
     </nav>
 
