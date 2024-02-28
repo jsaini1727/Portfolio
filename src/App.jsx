@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Project from './pages/Project'
+import Portfolio from './pages/Portfolio'
 import './index.scss'
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About setQuote={setQuote} />} />
-          <Route path="/project" element={<Project setQuote={setQuote} />} />
+          <Route path="/portfolio" element={<Portfolio setQuote={setQuote} />} />
 
         </Routes>
 

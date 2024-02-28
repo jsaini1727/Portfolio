@@ -10,7 +10,7 @@ function Footer() {
 
         <NavLink to="/Linkdin">LinkdIn</NavLink>
         <NavLink to="/Github">Github</NavLink>
-        <NavLink to="/Project">Projects</NavLink>
+   
 
 
       </nav>
