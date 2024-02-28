@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import Project from "../components/Project"
 
-// The text of the h1 says 'About'
+// The text of the h1 says 'Projects'
 function Portfolio() {
     const projects = [{
         title: 'Always Sunny', 

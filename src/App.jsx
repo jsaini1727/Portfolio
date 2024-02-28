@@ -11,6 +11,7 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import './index.scss'
 
+// This function gets a quote on the portfolio
 function App() {
   const [quote, setQuote] = useState('')
 
@@ -46,5 +47,4 @@ function App() {
 
 
 
-// module.exports = App
 export default App 
