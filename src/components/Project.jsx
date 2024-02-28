@@ -11,7 +11,7 @@ export default function Project({ project }) {
         <div className="card">
             <h2>{title}</h2>
             <div className='image-container'>
-            <img src={projects[image]} />
+                <img src={projects[image]} />
             </div>
             <a href={link} className='link'>{link}</a>
             <a href={githubLink} className='link'>{githubLink}</a>
