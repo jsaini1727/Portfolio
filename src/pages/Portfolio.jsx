@@ -13,14 +13,14 @@ function Portfolio() {
      }, 
      {
         title: 'InstalLasagna',
-        image: 'sunny',
+        image: 'instalLasagna',
         link: 'https://lasagna-vr6a.onrender.com/',
         githubLink: 'https://github.com/jman2476/instalLasagna'
     }, 
     {
         title: 'Project 3',
-        image: 'portfolioPattern',
-        link: '',
+        image: 'construction',
+        link: 'Under Construction',
         githubLink: ''
     
     }]
